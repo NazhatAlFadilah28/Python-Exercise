@@ -2,10 +2,10 @@ print("="*30)
 print("RUMUS KELILING SEGITIGA")
 print("="*30)
 
-a = int(input("MASUKAN NILAI SISI 1 : "))
-b = int(input("MASUKAN NILAI SISI 2 : "))
-c =int (input("MASUKAN NILAI SISI 3 : "))
+def segitiga():
+    sisi = int(input("MASUKAN NILAI SISI  : "))
+    keliling = lambda s: sisi**3
 
-K = a + b + c
+    print("KELILING :",keliling(sisi),'cm2')
 
-print("HASIL : ",K)
+segitiga()

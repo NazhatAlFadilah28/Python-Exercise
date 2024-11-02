@@ -2,8 +2,10 @@ print("="*30)
 print("RUMUS VOLUME KUBUS")
 print("="*30)
 
-s = int(input("MASUKAN NILAI SISI : "))
+def kubus():
+    sisi = int(input("MASUKAN NILAI SISI : "))
+    volume = lambda s: sisi**3
 
-v = s * s * s
+    print("VOLUME : ",volume(sisi),'cm2')
 
-print("HASIL : ",v)
+kubus()

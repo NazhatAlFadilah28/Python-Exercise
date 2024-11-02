@@ -1,9 +1,11 @@
 print("="*30)
-print("RUMUS KELILING TRAPERIUM")
+print("RUMUS KELILING TRAPESIUM")
 print("="*30)
 
-s = int(input("MASUKAN NILAI SISI : "))
+def trapesium():
+    sisi = int(input("MASUKAN NILAI SISI : "))
+    panjang = lambda s: sisi**4
 
-p = s * s * s * s
+    print("PANJANG :",panjang(sisi),'cm')
 
-print("HASIL :",p)
+trapesium()

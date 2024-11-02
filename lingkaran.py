@@ -3,10 +3,10 @@ print("RUMUS KELILING LINGKARAN")
 print("="*30)
 
 def lingkaran():
-    PHI = 3.14
-    r = int(input("MASUKAN NILAI r : "))
+    phi = 3.14
+    ruas = int(input('ruas\t\t: '))
+    luas = lambda r: phi * ruas * ruas
 
-    Keliling = lambda : 2 * PHI * r
+    print('luas\t\t: ' ,luas(ruas), ' cm2')
 
-    print("HASIL : ",round(K))
-
+lingkaran()
